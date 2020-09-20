@@ -3,7 +3,7 @@ This file implements some helper functions for allowing Limeade to scan modules
 loaded with Python's builtin loaders.
 """
 
-import importlib
+import importlib.machinery
 
 from .scanning import register_helper
 
